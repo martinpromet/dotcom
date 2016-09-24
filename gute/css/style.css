@@ -930,11 +930,23 @@ figure {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   color: #000;
+  padding-top: 40px;
 }
 .services p {
   font-size: 16px;
 }
-
+a.anchor {
+    display: block;
+    position: relative;
+    top: 20px;
+    visibility: hidden;
+}
+a.anchor-icon{
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;  
+}
 #fh5co-portfolio-section {
   display: -webkit-box;
   display: -moz-box;
